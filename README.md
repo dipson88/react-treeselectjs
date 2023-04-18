@@ -9,8 +9,8 @@ A multi-select js component with nested options.
 - Typescript support
 
 Build data:
-- react-treeselectjs.mjs  22.44 kB │ gzip: 6.78 kB
-- react-treeselectjs.umd.js  14.80 kB │ gzip: 5.80 kB
+- react-treeselectjs.mjs  22.42 kB │ gzip: 6.77 kB
+- react-treeselectjs.umd.js  14.78 kB │ gzip: 5.79 kB
 
 **Live Demo:** https://dipson88.github.io/treeselectjs/
 
