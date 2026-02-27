@@ -1,5 +1,5 @@
-import Treeselect, { TreeselectValue } from './Treeselect'
-import React, { useCallback, useState } from 'react'
+import Treeselect, { type TreeselectValue } from './Treeselect'
+import { useCallback, useState } from 'react'
 import 'treeselectjs/dist/treeselectjs.css'
 
 const App = () => {
@@ -7,13 +7,13 @@ const App = () => {
     {
       name: 'test',
       value: 1,
-      children: []
+      children: [],
     },
     {
       name: 'test2',
       value: 2,
-      children: []
-    }
+      children: [],
+    },
   ])
 
   const [isSingleSelect, setIsSingleSelect] = useState(false)
@@ -42,9 +42,15 @@ const App = () => {
 
   return (
     <div>
-      <button onClick={onClickSingleSelect}>isSingleSelect</button>
-      <button onClick={onClickValue}>value</button>
-      <button onClick={onChangeOptions}>options</button>
+      <button type="button" onClick={onClickSingleSelect}>
+        isSingleSelect
+      </button>
+      <button type="button" onClick={onClickValue}>
+        value
+      </button>
+      <button type="button" onClick={onChangeOptions}>
+        options
+      </button>
       <Treeselect
         isSingleSelect={isSingleSelect}
         options={options}
@@ -56,9 +62,9 @@ const App = () => {
           style={{
             width: '100%',
             display: 'block',
-            textAlign: 'center'
+            textAlign: 'center',
           }}
-          href=""
+          href="https://www.google.com"
         >
           Click
         </a>
