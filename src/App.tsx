@@ -1,5 +1,6 @@
 import Treeselect, { type TreeselectValue } from './Treeselect'
-import { useCallback, useState } from 'react'
+// biome-ignore lint/correctness/noUnusedImports: React may be required by JSX transform or tooling
+import React, { useCallback, useState } from 'react'
 import 'treeselectjs/dist/treeselectjs.css'
 
 const App = () => {
