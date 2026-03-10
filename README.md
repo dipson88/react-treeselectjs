@@ -1,5 +1,13 @@
 # Treeselect JS React component
 
+> **This repository is archived.** The package has been moved into a monorepo. For the current source and new development, use the monorepo package instead.
+>
+> **New location:** [packages/react-treeselectjs](https://github.com/dipson88/treeselectjs/tree/main/packages/react-treeselectjs) · **Monorepo:** [dipson88/treeselectjs](https://github.com/dipson88/treeselectjs)
+>
+> The npm package `react-treeselectjs` may continue to be published from the monorepo.
+
+---
+
 It is a wrapper for https://www.npmjs.com/package/treeselectjs
 
 A multi-select js component with nested options.
